@@ -1,0 +1,26 @@
+h1, h2, h3, h4{
+                font-size: 50px;
+                color: green;
+                background-color: aqua;
+            }
+            h1{
+                color: coral;
+            }
+            .important{
+                color: red;
+                background-color: darkorange;
+            }
+
+            .uppercase{
+                text-transform: uppercase;
+                color: pink;
+                background-color: aliceblue;
+            }
+
+            #theone{
+                color: blue;
+            }
+
+            #mrJones{
+                color: aliceblue;
+            }
