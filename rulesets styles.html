@@ -4,24 +4,41 @@
         <title>rulesets styles</title>
         <style>
             h1, h2, h3, h4{
-                background-color: blueviolet;
                 font-size: 50px;
             }
             h1{
                 color: coral;
             }
+            .important{
+                color: red;
+                background-color: darkorange;
+            }
+
+            .uppercase{
+                text-transform: uppercase;
+                color: pink;
+                background-color: aliceblue;
+            }
+
+            #theone{
+                color: blue;
+            }
+
+            #mrJones{
+                color: aliceblue;
+            }
         </style>
     </head>
     <body>
-        <h1>
-            heading <span style="color: aqua;">one</span>
+        <h1 class="uppercase">
+            heading <span id="theone">one</span>
         </h1>
-        <h2>heading 2</h2>
+        <h2 class="important uppercase">heading 2</h2>
         <h3>heading 3</h3>
-        <h4>heading 4</h4>
-        <h1>heading 1</h1>
+        <h4 class="important">heading 4</h4>
+        <h1 class="important">heading 1</h1>
         <h2>heading 2</h2>
-        <h3>heading 3</h3>
+        <h3 class="important uppercase" id="mrJones" style="color: blueviolet;">heading 3</h3>
         <h4>heading 4</h4>
     </body>
 </html>
